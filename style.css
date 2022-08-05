@@ -179,6 +179,7 @@ feastures
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-top: 24px;
 }
 
 .img__container{
@@ -191,21 +192,61 @@ feastures
     border: solid #e5e7eb;
 }
 
-.feat-title{
-
+.feat__description{
+    max-width: 576px;
+    font-size: 18px;
+    margin-top: 16px;
+    line-height: 2;
+    color: #7c8ba1;
+    display: flex;
+    text-align: center;
+    padding-bottom: 16px;
 }
 
-.feat-h1{
-
+.list__container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
-
-.feat-para{
-    
-}
-
-
 
 .list__service{
     display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 16px;
+    padding: 32px 8px;
+    max-width: calc(310px);
     
 }
+
+.text__container{
+    margin: 8px 0 0 16px;
+
+}
+
+.img__feature{
+    display: flex;
+   
+}
+
+.feat-title{
+    font-weight: bold;
+}
+
+.feat__title{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.feat__h1{
+
+}
+
+.feat__para{
+    font-size: 16px;
+    margin-top: 16px;
+    line-height: 2;
+    color: #7c8ba1;
+}
+
+
