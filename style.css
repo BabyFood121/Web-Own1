@@ -424,6 +424,7 @@ value
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    line-height: 1.65;
 }
 
 .jizz{
@@ -434,4 +435,119 @@ value
     width: 100%;
     max-width: 560px;
     text-align: center;
+}
+
+.threeplans{
+display: flex;
+justify-content: space-between;
+}
+
+.e10
+
+
+.oneplan{
+    margin: 64px 54px 0 0;
+    padding: 8px 32px 0;
+    width: 100%;
+    border-radius: 12px;
+}
+
+.purp__plan{
+    background-color: rgb(76, 81, 191);
+    text-align: center;
+}
+
+.plan__header,
+.plan__middle,
+.plan__btn{
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+}
+
+.name{
+    font-size: 20px;
+}
+
+.price{
+    font-size: 48px;
+    margin: 4px 0;
+}
+
+.duration{
+    font-size: 16px;
+    color: #edf2f7;
+}
+
+.feature{
+    margin-top: 20px;
+}
+
+.purc{
+    color: #e2e8f0;
+}
+
+.name,
+.price,
+.duration{
+    font-weight: bold;
+}
+
+.name,
+.price,
+.main__feature{
+    color: #f7fafc;
+}
+
+.buy__btn{
+    background-color: #ffff;
+    color: #6415ff;
+    padding: 12px 32px;
+    font-size: 14px;
+    border-radius: 40px;
+    border: none;
+    cursor: pointer;
+}
+
+.plan__middle{
+    box-sizing: border-box;
+    border-top: solid #e5e7eb;
+    border-bottom: solid #e5e7eb;
+    margin: 0 -32px;
+}
+
+/* 
+
+three plans
+
+*/
+
+.test__all{
+    display: flex;
+}
+
+.test__left--img{
+    width: 100%;
+    width: 640px;
+    height: auto;
+}
+
+.testimonial__wrap{
+    padding-left: 64px;
+    display: flex;
+    flex-direction: column;
+}
+
+.b{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.testp{
+    margin-top:24px ;
+}
+
+i{
+    width: 10px;
+    height: 10px;
 }
