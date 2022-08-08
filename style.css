@@ -32,6 +32,8 @@ li{
     align-items: center;
 }
 
+
+
 .entire{
     padding: 32px;
     margin: 0 auto;
@@ -76,8 +78,25 @@ nav{
 .nav__link{
     margin: 0 24px;
     text-decoration: none;    
+    padding-bottom: 4px;
     font-size: 14px;
     font-weight: 700;
+    color: #243e65;
+    border-bottom: 0 solid;
+    border-bottom-width: 2px;
+    border-color: transparent;
+}
+
+.nav__link:hover{
+    color: #6415ff;
+    transition: all 100ms ease-in;
+    border-color: #6415ff;
+}
+
+.nav__link:not(:hover){
+    color: #243e63;
+    border-color: transparent;
+    transition: all 100ms ease;
 }
 
 .left{
@@ -94,6 +113,18 @@ nav{
     border: none;
     cursor: pointer;
 }
+
+.btn:hover{
+    transition: all 400ms ease;
+    background-color: blueviolet;
+}
+
+.btn:not(:hover){
+    transition: all 300ms ease;
+    color: #6415ff;
+    color: white;
+}
+
 /*
 
 nav ^
@@ -121,7 +152,7 @@ nav ^
 
 
     input,
-    textarea, 
+    textarea,
     button{
         margin-bottom: 24px;
         font-size: 20px;
@@ -191,6 +222,9 @@ feastures
     border-radius: 9999px;
     padding: 20px;
     border: solid #e5e7eb;
+    display: flex;
+    justify-content: center;
+
 }
 
 .feat__description{
@@ -223,11 +257,6 @@ feastures
 .text__container{
     margin: 8px 0 0 16px;
 
-}
-
-.img__feature{
-    display: flex;
-   
 }
 
 .feat-title{
@@ -509,6 +538,21 @@ justify-content: space-between;
     cursor: pointer;
 }
 
+.buy__btn:hover{
+   
+}
+
+.redbtn{
+    background: linear-gradient(115deg, rgb(245, 101, 101) 0%, rgb(254, 178, 178) 100%);
+    color: #e2e8f0;
+}
+
+.redplan{
+    color: black;
+    background-color: lightslategrey; 
+    border: #243e63;
+}
+
 .plan__middle{
     box-sizing: border-box;
     border-top: solid #e5e7eb;
@@ -547,7 +591,145 @@ three plans
     margin-top:24px ;
 }
 
-i{
-    width: 10px;
-    height: 10px;
+.div{
+    display: flex;
+}
+
+.person__review{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.person__desc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.review__img{
+    width: 80px;
+    border-radius: 9999px;
+}
+
+.tpara{
+    margin: 0;
+}
+
+.stress__button{
+    background-color: #e5e7eb;
+    color: #6415ff;
+    border-radius: 9999px;
+    border: none;
+    cursor: pointer;
+    margin-left: 12px;
+    margin-right: 12px;
+    margin-bottom: -24px;
+    width: 48px;
+    height: 48px;
+}
+
+
+.buttons{
+    display: flex;
+    
+}
+
+.divider{
+
+}
+
+
+/*
+
+footer
+
+*/
+
+#footer{
+    background-color: #6415ff;
+}
+
+.footer__container{
+    display: flex;
+}
+
+.footer__link--container{
+    flex-direction: column;
+    margin-top: 12px;
+}
+
+.footer__main{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: calc(100%/5);
+    align-items: center;
+    text-align: left;
+}
+
+.ftit{
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffff;
+}
+
+.footer__link{
+    font-size: 14px;
+    color: #f7fafc;
+    text-decoration: none;
+    padding-top: 8px;
+    padding-bottom: 4px;
+    border-bottom: 0 solid;
+    border-bottom-width: 2px;
+    border-color: transparent;
+}
+
+
+
+
+.footer__link:hover{
+color: #f7fafc;
+transition: all 200ms ease-in;
+border-color: #f7fafc;
+}
+
+.footer__link:not(:hover){
+color: #f7fafc;
+border-color: transparent;
+transition: all 200ms ease;
+}
+
+.fdiv{
+    margin-top: 64px;
+    margin-bottom: 64px;
+    border-bottom: 0 solid rgba(255, 193, 139, 0.365);
+    border-bottom-width: 2px;
+    width: 100%;
+
+}
+
+.bottom__footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ftb{
+    margin-left: 8px;
+}
+
+.footer__logo{
+    width: 32px;
+}
+
+.footer__btn{
+    width: 32px;
+    height: 32px;
 }
